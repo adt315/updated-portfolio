@@ -1,0 +1,68 @@
+body {
+    background-color: #d6d6d2;
+}
+
+/* Navigation Bar */
+
+span.navbar-brand {
+    background-color: teal;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+/* Sections */
+
+.about, .contact {
+    width: 800px;
+}
+
+.contact {
+    height: 500px;
+}
+
+.portfolio {
+    width: 500px;
+}
+
+.card {
+    background-color: white;
+    margin: 50px 65px 50px 65px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+h1 {
+    color: teal;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14pt;
+}
+
+label {
+    color: #8d8d8c;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 85%;
+}
+
+.placeholder {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: teal;
+    width: 100px;
+}
