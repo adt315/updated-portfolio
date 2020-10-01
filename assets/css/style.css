@@ -34,15 +34,17 @@ span.navbar-brand {
     height: 50%;
 }
 
-.portfolio {
-    /* width: 500px; */
-}
 
 .card {
     background-color: white;
     /* margin: 50px 65px 50px 65px; */
     padding: 30px 20px 10px 20px;
     margin-top: 50px;
+}
+
+.portfolio-card {
+    background-color: #f0f0ec;
+    /* width: 500px; */
 }
 
 h1 {
@@ -83,4 +85,10 @@ label {
 
 a {
     color: white;
+}
+
+.project {
+    height: 250px;
+    width: 500px;
+    margin-bottom: 30px;
 }
