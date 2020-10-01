@@ -55,6 +55,10 @@ p {
     font-size: 1.35em;
 }
 
+.my-info {
+    font-size: 1em;
+}
+
 label {
     color: #8d8d8c;
     font-weight: bold;
@@ -74,4 +78,9 @@ label {
     background-color: teal;
     width: 100px;
     margin-top: 10px;
+    color: white;
+}
+
+a {
+    color: white;
 }
