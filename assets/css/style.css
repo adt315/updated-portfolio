@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
 body {
     background-color: #d6d6d2;
 }
@@ -8,7 +14,7 @@ span.navbar-brand {
     background-color: teal;
     font-family: "Palatino Linotype", "Book Antiqua", serif;
     font-weight: bold;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     padding: 10px;
 }
 
@@ -19,22 +25,24 @@ span.navbar-brand {
 /* Sections */
 
 .about, .contact {
-    width: 800px;
+    /* width: 800px; */
+    width: 75%;
 }
 
 .contact {
-    height: 500px;
+    /* height: 500px; */
+    height: 50%;
 }
 
 .portfolio {
-    width: 500px;
+    /* width: 500px; */
 }
 
 .card {
     background-color: white;
-    margin: 50px 65px 50px 65px;
-    padding-left: 20px;
-    padding-top: 30px;
+    /* margin: 50px 65px 50px 65px; */
+    padding: 30px 20px 10px 20px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -44,7 +52,7 @@ h1 {
 }
 
 p {
-    font-size: 14pt;
+    font-size: 1.35em;
 }
 
 label {
@@ -65,4 +73,5 @@ label {
 .btn {
     background-color: teal;
     width: 100px;
+    margin-top: 10px;
 }
